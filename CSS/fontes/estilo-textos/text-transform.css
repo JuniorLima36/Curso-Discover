@@ -1,0 +1,22 @@
+/*
+# text-transform
+- Transformação de texto
+- atributos:
+  - capitalize: primeira letra maiusculo
+  - uppercase:  maiusculo
+  - lowercase:  minusculo
+
+p {
+  text-transform: uppercase; 
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}

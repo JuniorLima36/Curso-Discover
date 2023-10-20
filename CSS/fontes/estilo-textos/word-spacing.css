@@ -1,0 +1,18 @@
+/*
+# word-spacing
+- Expaços entre palavras
+
+p {
+  word-spacing: 4px;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 4px;
+}

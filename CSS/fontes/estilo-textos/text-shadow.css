@@ -1,0 +1,24 @@
+/*
+# text-shadow
+- Sombra aplicada a um texto
+- Permite multiplos valores
+- atributos
+  - offset-x
+  - offset-y
+  - blur-radius
+  - color
+
+p {
+  text-shadow: 1px 1px 1px red;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px red;
+}

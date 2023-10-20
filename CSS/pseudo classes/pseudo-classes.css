@@ -1,0 +1,40 @@
+/*
+# Pseudo-classes
+É um tipo de seletor que ira selecionar um elemento que estiver em um estado especifico.
+
+Exemplo: É o primeiro elemento dentro de uma caixa, ou, o elemento está com o ponteiro do mouse em cima dele.
+
+Pseudo-classes começam com 2 pontos seguido do nome da pseudo class ':pseudo-class-name'
+
+# Selecionando elementos com pseudo-classes
+
+- :first-child
+- :nth-of-type()
+- :nth-child()
+  - odd
+  - even
+*/
+ul h3:first-child {
+  font-weight: bold;
+  color: red;
+}
+
+article p:nth-of-type(3){
+  font-weight: bold;
+  font-size: 18px;
+}
+
+article h3:nth-child(1){
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+ul li:nth-child(odd){
+  color: black;
+  background: #eee;
+}
+
+ul li:nth-child(even){
+  color: gray;
+}

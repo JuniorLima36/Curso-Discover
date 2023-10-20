@@ -1,0 +1,23 @@
+/* Box model
+
+  # Caixas
+  - Quase tudo são caixas em CSS
+  - Posicionamento, tamanho, espaçamento, bordas, cores
+  - Caixa pode ficar ao lado uma da outra, ou acima
+  - Elementos HTML são caixas
+
+  - border: borda da caixa
+  - margin: margem da caixa
+  - padding: preenchimento da caixa
+*/
+/*
+<h1>Evolua</h1>
+<p>descrição</p>
+<button>Embarcar</button>
+*/
+
+h1 {
+  border: 1px solid red;
+  margin: 200px;
+  padding: 60px;
+}

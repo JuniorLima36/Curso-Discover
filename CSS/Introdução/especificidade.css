@@ -1,0 +1,37 @@
+/* 
+  # Especificidade
+  É um calculo matematico, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
+
+  0. universal selector, combinators e negation pseudo-class (:not())
+  1. Element type selector e pseudo-elements (::before, ::after)
+  10. Classes e attribute selectors ([type="radio"])
+  100. ID selector
+  1000. Inline
+*/
+
+/*
+Exemplo:
+<h1 class="title" id="my-title" style="color: brown;">Titulo</h1>
+<p>parágrafo</p>
+*/
+
+style {
+  /* style direto na tag. 1000 */
+  color:  brown;
+}
+
+.title {
+  /* 10 */
+  color: blueviolet;
+}
+
+h1 {
+  /* 1 */
+  color: blue;
+}
+
+* {
+  /* 0 */
+  color: red;
+}
+

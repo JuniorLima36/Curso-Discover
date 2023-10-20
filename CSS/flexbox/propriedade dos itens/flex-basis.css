@@ -1,0 +1,26 @@
+/*
+# Propriedades para os itens
+
+- flex-basis
+- flex-grow
+- flex-shrink
+- flex
+- order
+*/
+
+.box {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px dashed red;
+}
+
+.box div {
+  border: 1px solid;
+  flex-basis: auto;
+}
+
+.box div:nth-child(1) {
+  width: 2500px;
+  height: 400px;
+}

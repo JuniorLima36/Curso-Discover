@@ -1,0 +1,21 @@
+/*
+# Pseudo-elementos
+Com pseudo-elements nós podemos adicionar elementos HTML pelo proprio CSS '::pseudo-element-name'
+
+# Exemplos
+- ::before
+- ::after
+- ::first-line
+*/
+
+li::before{
+  content: '>';
+}
+
+li::after{
+  content: ';';
+}
+
+p::first-line{
+  font-weight: bold;
+}

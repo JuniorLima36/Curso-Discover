@@ -1,0 +1,122 @@
+># HTTP Methods
+
+- `HTTP Methods`
+  - Define um conjunto de metodos HTTP
+  - Indica a ação que o cliente deseja operar
+  - Podem ser chamados de verbos HTTP
+  - Cade um possui a sua semantica
+  - Caracteristicas
+    - `Seguro`
+      - Não altera o estado do servidor
+      - Somete leitura
+      - Cliente não solicita alterações
+      - Não há carga extra para o servidor
+      - O servidor é responsavel em manter o metodo seguro
+      - `Quais são?`
+        - GET = GET/search.html HTTP/1.1
+        - HEAD
+        - OPTIONS
+    - `Independente`
+      - Ao executar o metodo, a resposta deverá ser sempre a mesma
+      - `Quais são?`
+        - Todos os seguros são idempotentes
+        - PUT
+        - DELETE
+      - Status code poderá ser diferente
+      - O servidor tem a responsabilidade de retornar dados da mesma maneira
+      - Essa especificação não é garantia de que todos os servidores irão aplicar o conceito corretamente
+----
+- `OPTIONS`
+  - `Informações sobre disponibilidade da requisição`
+    - OPTIONS /index.html HTTP/1.1
+    - OPTIONS * HTTP/1.1
+  - `Caracteristicas`
+    - Seguro: sim
+    - Idempotente: sim
+    - `body`
+      - Request: não
+      - Response: não
+    - Uso em formularios HTML : não
+    - Cacheable: não
+---
+- `GET`
+  - Pegar um recurso
+  - Somente receber dados
+  - `Caracteristicas`
+    - Seguro: sim
+    - Idempotente: sim
+    - `body`
+      - Request: não
+      - Response: sim
+    - Uso em formularios HTML : sim
+    - Cacheable: sim
+---
+- `HEAD`
+  - Semelhante ao GET, porem...
+  - Recebemos somente o cabeçalho = HEAD/posts
+  - `Caracteristicas`
+    - Seguro: sim
+    - Idempotente: sim
+    - `body`
+      - Request: não
+      - Response: não
+    - Uso em formularios HTML : não
+    - Cacheable: sim
+---
+- `POST`
+  - Publicar/Cadastrar um recurso
+  - `Caracteristicas`
+    - Seguro: não
+    - Idempotente: não
+    - `body`
+      - Request
+      - Response
+    - Uso em formularios HTML : sim
+    - Poderá ser Cacheable
+---
+- `PUT`
+  - `Cria um novo ou atualiza um recurso`
+    - PUT /profile HTTP/1.1
+    - Diferença entre POST?
+    - `Criação`
+      - Status code 201
+    - `Atualização`
+      - Status code 204 ou 200
+  - `Caracteristicas`
+    - Seguro: não
+    - Idempotente: sim
+    - `body`
+      - Request: sim
+      - Response: não
+    - Uso em formularios HTML : não
+    - Cacheable: não
+---
+- `PATCH`
+  - `Modificação parcial de um recurso`
+    - Diferença entre o PUT?
+    - PATCH /posts/1 HTTP/1.1
+  - `Caracteristicas`
+    - Seguro: não
+    - Idempotente: não
+    - `body`
+      - Request: sim
+      - Response: sim
+    - Uso em formularios HTML : não
+    - Cacheable: não
+---
+- `DELETE`
+  - `Remover um recurso`
+    - DELETE /posts HTTP/1.1
+    - `Status code` 
+      - 202: Accepted
+      - 204: No content
+      - 200: OK
+  - `Caracteristicas`
+    - Seguro: não
+    - Idempotente: sim
+    - `body`
+      - Request: Possibilidade
+      - Response: Possibilidade
+    - Uso em formularios HTML : não
+    - Cacheable: não
+---

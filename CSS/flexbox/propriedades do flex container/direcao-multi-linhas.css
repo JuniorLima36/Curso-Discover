@@ -1,0 +1,19 @@
+/*
+# flex-flow
+
+- shorthand
+- flex-direction || flex-wrap
+*/
+
+.box {
+  display: flex;
+  flex-flow:column wrap-reverse;
+
+  border: 1px dashed red;
+}
+
+.box div {
+  border: 1px solid;
+
+  width: 80px;
+}

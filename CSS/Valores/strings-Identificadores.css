@@ -1,0 +1,24 @@
+/*
+# Strings e identificadores
+
+* Strings: Texto envolto as aspas
+* Identificadores: red, black, green;
+* url()
+* calc()
+*/
+body {
+  height: 100vh;
+  margin: 0;
+}
+.box {
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: url(http://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.box::after {
+  content: "Aqui vem algum mensagem";
+  color: white;
+}

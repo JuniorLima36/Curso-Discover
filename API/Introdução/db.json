@@ -1,0 +1,22 @@
+{
+  "nome": "junior lima",
+  "cidade": "São paulo",
+  "telefone": 555155841,
+  "livros-favoritos": [
+    "neuromancer",
+    "codigo limpo",
+    "essencialismo"
+  ],
+  "hobbies": {
+    "semana": "patinação",
+    "fim-de-semana": {
+      "sabado": "cinema",
+      "domingo": "parque",
+      "outros": [
+        "caminhada",
+        "volei",
+        "netflix"
+      ]
+    }
+  }
+}

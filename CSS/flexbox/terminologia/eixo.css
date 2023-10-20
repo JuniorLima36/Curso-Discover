@@ -1,0 +1,14 @@
+/*
+# Axis
+  - main
+    - start, end
+  - cross
+    - start, end
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}

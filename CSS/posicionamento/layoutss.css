@@ -1,0 +1,25 @@
+/*
+# Page layouts
+- Tables
+- Floats e clear
+- Frameworks e Gris systems
+- Flexbox
+- Grid
+
+# Posicionamentos
+Controlar onde, na pagina, o elemento ira ficar, alterado o fluxo normal dos elementos.
+
+- name: position
+- value: static | relative | absolute | fixed
+
+# Relative
+- top, right, bottom, left, z-index
+
+# absolute
+
+# fixed
+
+# element stacking 
+- funciona como empilhamento
+- z-index 
+*/

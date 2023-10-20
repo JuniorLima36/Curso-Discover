@@ -1,0 +1,27 @@
+/*
+# Ações do usuario
+
+- :hover
+- :focus
+
+# Atributos
+- :disabled
+- :required
+*/
+
+a:hover {
+  color: rebeccapurple;
+}
+
+input{
+  border-color: blue;
+  outline: none;
+}
+
+input:disabled{
+  background-color: green;
+}
+
+input:required{
+  background-color: red;
+}

@@ -1,0 +1,20 @@
+/*
+# font-stretch
+- alargamento ou encolhimento da fonte
+- aceita palavra-chaves como: expanded, condensed, normal
+- aceita porcentagens de 50% a 200%
+
+p {
+  font-stretch: expanded;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  font-stretch: expanded;
+}

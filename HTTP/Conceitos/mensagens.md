@@ -1,0 +1,22 @@
+># HTTP Messages
+
+- `Request`
+  - Request Line
+    - Method
+    - Protocol version
+    - URI
+  - Body
+  - Headers
+- `Response`
+  - Protocol Version
+  - Status Code
+  - Headers
+  - Status Message
+- `HTTP Messages`
+  - `HTTP/1.1`
+    - Legivel
+    - Texto
+  - `HTTP/2`
+    - Estrutura bianria
+    - Otimizações
+    - Mesma maneira que a versão 1.1

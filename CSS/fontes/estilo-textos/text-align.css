@@ -1,0 +1,23 @@
+/*
+# text-align
+- Alinhamento de um texto
+- atributos:
+  - left
+  - right
+  - center
+  - justify
+
+p {
+  text-align: center;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}

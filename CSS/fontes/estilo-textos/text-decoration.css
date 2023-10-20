@@ -1,0 +1,30 @@
+/*
+# text-decoration
+- Aparencia decorativa de um texto
+- line:
+  - underline
+  - overline
+  - line-through
+- style:
+  - wavy
+  - dotted
+  - double
+  - dashed
+  - solid
+* Pode ser aplicado mais de um valor
+- color <color> values
+
+p {
+  text-decoration: underline;  /shorthand/
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline solid red;
+}

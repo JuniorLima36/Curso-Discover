@@ -1,0 +1,11 @@
+/* Funções
+  - Nome seguido de abre e fecha parentesis
+  - Recebe argumentos
+*/
+
+@import url("http://fonts.google.com");
+
+h1 {
+  color: rgb(red, green, blue);
+  width: calc(100% - 10px);
+}

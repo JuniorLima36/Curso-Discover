@@ -1,0 +1,18 @@
+/* 
+# Font style
+- O Estilo da fonte
+- Value:
+  - normal
+  - italic
+  - oblique
+
+p {
+  font-style: italic;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+}

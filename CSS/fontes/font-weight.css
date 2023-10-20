@@ -1,0 +1,19 @@
+/* 
+# Font weight
+- Peso da fonte
+- value:
+  - normal
+  - bold
+  - bolder
+  - lighter
+  - 100 a 900
+
+p {
+  font-weight: bold;
+}
+*/
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}

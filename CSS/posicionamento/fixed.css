@@ -1,0 +1,25 @@
+/*
+# fixed
+- entra em uma nova camada, saindo do fluxo normal, é entra em um novo fluxo.
+- fixo na pagina
+*/
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.box1 {
+  background-color: red;
+  position: fixed;
+  top: 50px;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}

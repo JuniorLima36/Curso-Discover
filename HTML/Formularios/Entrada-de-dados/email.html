@@ -1,0 +1,52 @@
+<!-- 
+  <input type="email" />
+
+  - Espera que o usuario digite um email
+  - Ira validar se o valor digitado é um email
+
+  # Atributos
+  - placeholder
+  - readonly / disabled
+  - value
+  - required
+
+  - multiple
+    - O campo ira receber um ou mais email, separado por virgulas
+
+  - minlength / maxlength
+    - O minimo e/ou maximo valor que o campo ira conter 
+
+  - size
+    - Valor numerico indicando quantos caracteres esse campo deveria conter
+
+  - pattern
+    - Uso de expressão regular para validar o campo
+    - Exemplo: o usuario só poderá colocar email do dominio Ex: gmail.com, outlook.com e etc
+      - pattern=".+@gmail\.com"
+  
+  - list
+    - O id de uma tag <datalist> que está no mesmo documento
+    - <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuario, quais valores estão disponiveis
+      - Os valores do <datalist> que não forem compativeis com o campo, não serão apresentados como sugestão
+-->
+
+<form action="">
+  <datalist id="list">
+    <option>junior@gmail.com</option>
+  </datalist>
+  <label for="email">Email:</label>
+  <input  
+  type="email" 
+  name="email"
+  id="email"
+  placeholder="Digite seu email aqui." 
+  required 
+  multiple
+  minlength="8" 
+  maxlength="35"
+  pattern=".+@gmail\.com"
+  title="Email deve conter @gmail.com"
+  list="list"
+  >
+  <button type="submit">Enviar</button>
+</form>

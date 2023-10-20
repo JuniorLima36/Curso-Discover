@@ -1,0 +1,49 @@
+/*
+# Propriedades para os itens
+
+- flex-basis
+- flex-grow
+  - O crescimento do item dentro do container em relação aos espaços vazios.
+- flex-shrink
+  - O encolher do item dentro do container
+- flex
+  - shorthand
+  - flex-grow flex-shrink flex-basis
+  - podem ter 1, 2 ou 3 valores
+- order
+*/
+
+.page {
+  border: 2px solid;
+  min-height: 100vh;
+
+  display: flex;
+}
+
+aside {
+  background: lightgreen;
+  flex: 1;
+}
+
+main {
+  background: lightblue;
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main section:nth-child(1) {
+  background: lightgoldenrodyellow;
+  flex: 0 0 50px;
+}
+
+main section:nth-child(2) {
+  background: lightsalmon;
+  flex: 0 120px;
+}
+
+main section:nth-child(3) {
+  background: lightpink;
+  flex: 1 0;
+}

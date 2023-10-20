@@ -1,0 +1,17 @@
+/*
+# flexbox
+- A caixa se torna flex, fazendo com que os elementos internos possam receber melhor
+
+- Alinhamento
+- Ordenação
+- Tamanhos flexíveis
+*/
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item:nth-child(1) {
+  order: 1;
+}

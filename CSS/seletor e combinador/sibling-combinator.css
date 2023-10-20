@@ -1,0 +1,21 @@
+/*
+# Adjacent sibling combinator
+- Identificado pelo sinal '+' entre dois seletores
+- Selecione somente o elemento do lado direito que é irmão direto na hierarquia
+
+h1 + p
+
+# General sibling combinator
+- Identificado pelo sinal '~' entre dois seletores
+- Seleciona todos os elementos irmãos
+
+h1 + p
+*/
+
+h1 + p {
+  color: brown;
+}
+
+button + button {
+  margin-left: 32px;
+}

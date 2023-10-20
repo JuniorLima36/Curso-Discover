@@ -1,0 +1,10 @@
+/* Vendor Prefixes
+  - Permite que browsers adicione 'Features' a fim de colocar em uso alguma novidade que vemos no CSS
+*/
+
+p {
+  -webkit-background-clip: text;  /* Chrome, Safari, IOS e Android */
+  -moz-background-clip: text;     /* Mozilla (Firefox) */
+  -ms-background-clip: text;      /* Internet explorer */
+  -o-background-clip: text;       /* Opera */
+}

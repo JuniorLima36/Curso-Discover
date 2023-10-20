@@ -1,0 +1,17 @@
+/*
+# Adicionando CSS
+  - inline
+      atributo <style>
+  - <style>
+      tag html que ira conter o css
+  - <link>
+      arquivo css externo
+  - @import
+      arquivo css externo
+
+Exemplo:
+@import url(http://fonts.google.com)
+<style></style>
+<link rel="stylesheet" href="box-model.css">
+<h1 style="color: red;">Test</h1>
+*/

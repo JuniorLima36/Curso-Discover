@@ -1,0 +1,36 @@
+/*
+# Background
+- Define um fundo para o nosso elemento
+- Sua área de atuação é a caixa toda
+- por padrão, é transparente
+
+# Exemplos
+- Usar cores sólidas           | background-color
+- Usar imagens                 | background-image
+- Controlar                    |
+  - a posição das imagens:     | background-position
+  - se elas se repetem ou não  | background-repeat
+  - o tamanho delas na caixa   | background-size
+- Usar cor e imagem juntas     | background-origin e clip
+- altera o comportamento       | background-attachment
+- Usar cor gradiente           | background: linear-gradient()
+*/
+* {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  border: 7px solid red;
+  padding: 16px;
+
+  background-color: rgb(55, 100, 55);
+  background-image: url(https://cdn.icon-icons.com/icons2/2620/PNG/512/among_us_player_red_icon_156942.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+  background-origin: content-box; 
+  background-clip: content-box;
+  background-attachment: fixed;
+  /* background: linear-gradient(red, yellow); */
+}

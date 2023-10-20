@@ -1,0 +1,44 @@
+/*
+# Propriedades para os itens
+
+- flex-basis
+- flex-grow
+  - O crescimento do item dentro do container em relação aos espaços vazios.
+- flex-shrink
+  - O encolher do item dentro do container
+- flex
+  - shorthand
+  - flex-grow flex-shrink flex-basis
+  - podem ter 1, 2 ou 3 valores
+- order
+*/
+
+.box {
+  display: flex;
+
+  border: 1px dashed red;
+}
+
+.box div {
+  border: 1px solid;
+}
+
+.box div:nth-child(1) {
+  order: 1;
+}
+
+.box div:nth-child(2) {
+  order: 20;
+}
+
+.box div:nth-child(3) {
+  order: 0;
+}
+
+.box div:nth-child(4) {
+  order: -1;
+}
+
+.box div:nth-child(5) {
+  order: 0;
+}

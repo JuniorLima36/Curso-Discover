@@ -1,0 +1,57 @@
+/*
+# Trabalhando com fontes
+
+Tipografia transmite mensagem
+- negrito
+- tamanho
+- estilo
+
+# Basic font properties
+- font-family
+- font-weight
+- font-style
+- font-size
+_________________________________________________
+# Font family
+- Tipo de fonte de um elemento
+- Lista de fontes e ordem de prioridade
+- inclui *fallback* font
+  - serif
+  - sans
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+_________________________________________________
+# Font weight
+- Peso da fonte
+
+p {
+  font-weight: bold;
+}
+_________________________________________________
+# Font style
+- O Estilo da fonte
+- Value:
+  - normal
+  - italic
+  - oblique
+
+p {
+  font-style: italic;
+}
+_________________________________________________
+# Font size
+- O tamanho da fonte
+
+p {
+  font-size: 18px;
+}
+_________________________________________________
+# Web fonts
+- fontes do sistema x fontes da web
+- como usar fontes para web
+  - @font-face
+  - @import
+  - link
+*/

@@ -1,0 +1,10 @@
+/*
+# normal flow 
+- Ou flow layout é a maneira que os elementos 'block' e 'inline' ficam em pagina
+
+<p>Texto block com <strong>inline</strong> dentro</p>
+*/
+
+div, strong {
+  background-color: green;
+}
